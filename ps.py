@@ -3,7 +3,6 @@ import threading
 from queue import Queue
 
 target = input(str("Target IP: "))
-#192.168.86.237
 queue = Queue()
 open_ports = []
 
